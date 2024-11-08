@@ -1,0 +1,7 @@
+{
+  "name": "10_nodeJs강의",
+  "packageManager": "yarn@4.4.1",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
