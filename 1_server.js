@@ -45,11 +45,11 @@ const server = htttp.createServer((req, res)=>{
 
   // 200번상태코드(요청OK)의 경우
   // wirteHead : 요청 URL의 응답 헤더를 지정함. 여기서는 응답 데이터 형식이 html임.
-  res.writeHead(200, {'Content-Type' : 'text/html'});
+  // res.writeHead(200, {'Content-Type' : 'text/html'});
 
-  // 응답을 종료하고 클라에게 데이터를 보냄.
-  // 여기서는 h1태그로 싸인 html코드를 보낸다.
-  res.end('<h1>helloWorld</h1>');
+  // // 응답을 종료하고 클라에게 데이터를 보냄.
+  // // 여기서는 h1태그로 싸인 html코드를 보낸다.
+  // res.end('<h1>helloWorld</h1>');
  
 });
 
